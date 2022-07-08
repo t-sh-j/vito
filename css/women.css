@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Varela+Round&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Belleza', sans-serif;
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.navbar {
+    width: 100%;
+    height: 140px;
+    display: flex;
+    
+    position: fixed;
+    z-index: 999;
+}
+
+.navbar-logo {
+    width: 175px;
+    height: 100px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.navbar .ul-menu {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    right: 25%;
+    bottom: 70px;
+}
+
+.navbar .ul-menu li {
+    margin-left: 100px;
+}
+
+.navbar ul li a {
+    font-size: 1.4rem;
+    font-weight: 600;
+    /* transition: 0.1 all; */
+}
+
+.navbar ul li a:hover {
+    color: blueviolet;
+}
+
+.navbar ul li a img {
+    width: 22px;
+    height: 22px;
+    margin-left: -10px;
+}
+
+.ul-icon {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    right: 5%;
+    bottom: 65px;
+}
+.ul-icon li {
+    margin-left: 30px;
+}
+
+.transperency {
+    background-color: rgba(255, 255, 255, 40%);
+    width: 100%;
+    height: 80%;
+}
+
+.dress-sec {
+    position: absolute;
+    top: 135px;
+    left: 98px;
+}
+
+.content-1 {
+    position: absolute;
+    top: 175px;
+    width: 100%;
+    display: flex;
+}
+
+.content-1 div {
+    width: calc(65% / 4);
+    margin-left: 7%;
+    height: 200px;
+    position: relative;
+}
+
+.content-1 div img:first-child {
+    width: 224.5px;
+    height: 300.5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.content-1 div .like-btn {
+    width: 20px;
+    position: absolute;
+    right: 35px;
+    bottom: -125px;
+}
+
+.content-1 div .add-btn {
+    width: 20px;
+    position: absolute;
+    right: 0;
+    bottom: -125px;
+}
+
+.jeans-sec {
+    position: absolute;
+    top: 560px;
+    left: 100px;
+}
+
+.content-2 {
+    position: absolute;
+    top: 600px;
+    width: 100%;
+    display: flex;
+}
+
+.content-2 div {
+    width: calc(65% / 4);
+    margin-left: 7%;
+    height: 200px;
+    position: relative;
+}
+
+.content-2 div img:first-child {
+    width: 224.5px;
+    height: 300.5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.content-2 div .like-btn {
+    width: 20px;
+    position: absolute;
+    right: 35px;
+    bottom: -125px;
+}
+
+.content-2 div .add-btn {
+    width: 20px;
+    position: absolute;
+    right: 0;
+    bottom: -125px;
+}
+
+.tops-sec {
+    position: absolute;
+    top: 1010px;
+    left: 100px;
+}
+
+.content-3 {
+    position: absolute;
+    top: 1050px;
+    width: 100%;
+    display: flex;
+}
+
+.content-3 div {
+    width: calc(65% / 4);
+    margin-left: 7%;
+    height: 200px;
+    position: relative;
+}
+
+.content-3 div img:first-child {
+    width: 224.5px;
+    height: 300.5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.content-3 div .like-btn {
+    width: 20px;
+    position: absolute;
+    right: 35px;
+    bottom: -125px;
+}
+
+.content-3 div .add-btn {
+    width: 20px;
+    position: absolute;
+    right: 0;
+    bottom: -125px;
+}
